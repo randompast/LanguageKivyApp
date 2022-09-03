@@ -61,8 +61,8 @@ class Main(MDApp):
         box = MDBoxLayout(orientation="horizontal")
         screen.add_widget(box)
         # Names of standard color themes.
-        es_data = es_text[10].split(' ')
-        en_data = en_text[10].split(' ')
+        es_data = es_text[1].split(' ')
+        en_data = en_text[1].split(' ')
         print(es_data)
         for i,w in enumerate(es_data):
             id = {'es':w,'en':en_data[i]}
